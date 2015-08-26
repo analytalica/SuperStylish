@@ -260,6 +260,20 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+.container {
+
+}
+
+.right {
+  margin-left: 200px;
+}
+
+.left {
+
+  float: left;
+  width: 200px;
+}
+
 .outer {
   width: 100%;
 }
