@@ -264,13 +264,13 @@ Full-Width Styles
 }
 
 .right {
-  margin-left: 200px;
+  margin-left: 220px;
+  padding-left: .8em;
 }
 
 .left {
-
   float: left;
-  width: 200px;
+  width: 220px;
 }
 
 .outer {
@@ -441,6 +441,20 @@ Small Device Styles
 }
 
 @media screen and (max-width: 480px) {
+
+  .left {
+    display: block;
+    margin: unset;
+    float: unset;
+    padding: unset;
+  }
+
+  .right {
+    display: block;
+    margin: unset;
+    float: unset;
+    padding: unset;
+  }
 
   .inner {
     min-width: 320px;
