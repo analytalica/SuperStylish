@@ -502,6 +502,10 @@ Small Device Styles
 .ba-slider {
   position: relative;
   overflow: hidden;
+  border: 1px solid #D2D2D2;
+  -webkit-box-shadow: 9px 9px 15px -8px rgba(0,0,0,0.5);
+  -moz-box-shadow: 9px 9px 15px -8px rgba(0,0,0,0.5);
+  box-shadow: 9px 9px 15px -8px rgba(0,0,0,0.5);
 }
 .ba-slider img {
   width: 100%;
@@ -512,13 +516,13 @@ Small Device Styles
   top: 0;
   left: 0;
   height: 100%;
-  width: 15%;
+  width: 20%;
   overflow: hidden;
 }
 .handle {
   /* Thin line seperator */
   position: absolute;
-  left: 15%;
+  left: 20%;
   top: 0;
   bottom: 0;
   width: 4px;
