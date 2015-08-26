@@ -259,13 +259,15 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
-.container {
-
+.container h1 {
+  margin: 6px 0 14px;
+  border-bottom: 1px solid #D2D2D2;
+  font-size: 32px;
 }
 
 .right {
   margin-left: 220px;
-  padding-left: .8em;
+  padding-left: 1em;
 }
 
 .left {
@@ -447,6 +449,7 @@ Small Device Styles
     margin: unset;
     float: unset;
     padding: unset;
+    width: unset;
   }
 
   .right {
@@ -454,6 +457,7 @@ Small Device Styles
     margin: unset;
     float: unset;
     padding: unset;
+    width: unset;
   }
 
   .inner {
@@ -508,13 +512,13 @@ Small Device Styles
   top: 0;
   left: 0;
   height: 100%;
-  width: 50%;
+  width: 15%;
   overflow: hidden;
 }
 .handle {
   /* Thin line seperator */
   position: absolute;
-  left: 50%;
+  left: 15%;
   top: 0;
   bottom: 0;
   width: 4px;
