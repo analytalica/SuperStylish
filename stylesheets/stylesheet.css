@@ -259,6 +259,11 @@ form {
 Full-Width Styles
 *******************************************************************************/
 
+.container {
+  position: relative;
+  margin-bottom: 2em;
+}
+
 .container h1 {
   margin: 6px 0 14px;
   border-bottom: 1px solid #D2D2D2;
@@ -271,8 +276,15 @@ Full-Width Styles
 }
 
 .left {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   float: left;
   width: 225px;
+}
+
+.left.list {
+  display: none;
 }
 
 .outer {
@@ -467,12 +479,31 @@ Small Device Styles
   }
 
 
+  .container {
+    margin-bottom: 1.5em;
+  }
+
   .left {
     display: block;
     margin: unset;
     float: unset;
     padding: unset;
     width: unset;
+
+    position: unset;
+    top: unset;
+    transform: unset;
+  }
+
+  .left.list {
+    display: unset;
+  }
+
+  .left.list .download_button_wrapper {
+  }
+
+  .left:not(.list) .download_button_wrapper {
+    display: none;
   }
 
   .right {
@@ -481,6 +512,8 @@ Small Device Styles
     float: unset;
     padding: unset;
     width: unset;
+    margin-top: 1em;
+    margin-bottom: 2.1em;
   }
 }
 
