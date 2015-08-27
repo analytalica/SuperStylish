@@ -1,10 +1,9 @@
 # SuperStylish
-A collection of custom stylesheets for providing a more modern and alternative look to websites.
+A collection of free custom stylesheets that provide a cleaner, more modern, and alternative look (plus bugfixes!) to select websites. This repository includes the source for the [SuperStylish website](https://analytalica.github.io/SuperStylish/), which is hosted (and can be found) on the gh-pages branch.
 
-Stylish for Firefox:
-https://addons.mozilla.org/en-US/firefox/addon/stylish/
+The source for the featured stylesheets are stored in individual repositories, also on GitHub, which can be found here:
 
-Stylish for Chrome:
-https://chrome.google.com/webstore/detail/stylish/fjnbnpbmkenffdnngjfgmeleoegfcffe?hl=en
+ - [**SuperPiazza** source](https://github.com/analytalica/SuperPiazza)
+ - [**SuperUTDirect** source](https://github.com/analytalica/SuperUTDirect)
 
-Any image credits can be found in `/assets/imagecredits.txt`.
+Happy styling!
