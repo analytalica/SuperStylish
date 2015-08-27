@@ -391,6 +391,31 @@ Full-Width Styles
   padding-top: 40px;
 }
 
+div.download_button_wrapper {
+  text-align: center;
+  margin: 1.4em 0;
+}
+
+.download_button {
+  background:#56C000;
+  background:-moz-linear-gradient(top,#56C000 0%,#3E8A00 100%);
+  background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#56C000),color-stop(100%,#3E8A00));
+  background:-webkit-linear-gradient(top,#56C000 0%,#3E8A00 100%);
+  background:-o-linear-gradient(top,#56C000 0%,#3E8A00 100%);
+  background:-ms-linear-gradient(top,#56C000 0%,#3E8A00 100%);
+  background:linear-gradient(top,#56C000 0%,#3E8A00 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#56C000', endColorstr='#3E8A00',GradientType=0);
+  padding:10px 15px;
+  color:#fff;
+  font-family:'Helvetica Neue',sans-serif;
+  font-size:16px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  border:1px solid green;
+  cursor: pointer;
+}
+
 #footer_wrap {
   background: #212121;
 }
@@ -440,9 +465,7 @@ Small Device Styles
   .firefox_stylish:hover {
     background: url(../images/browser_logos_small.png) no-repeat bottom right;
   }
-}
 
-@media screen and (max-width: 480px) {
 
   .left {
     display: block;
@@ -459,6 +482,10 @@ Small Device Styles
     padding: unset;
     width: unset;
   }
+}
+
+@media screen and (max-width: 480px) {
+
 
   .inner {
     min-width: 320px;
